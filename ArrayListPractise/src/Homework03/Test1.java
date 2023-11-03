@@ -2,7 +2,7 @@ package Homework03;
 
 import java.util.ArrayList;
 
-public class Test {
+public class Test1 {
     // 定义一个集合,添加一些学生对象,并进行遍历
     // 学生类的属性为:姓名,年龄
     public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class Test {
         stuList.add(stu2);
         for (int i = 0; i < stuList.size(); i++) {
             Student s = stuList.get(i);
-            System.out.println(s.getName() + "," + s.getAge());
+            System.out.println(s);
         }
     }
 }
