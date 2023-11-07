@@ -2,16 +2,16 @@ public class User {
     private String userName;
     private String password;
     private String id;
-    private String phoneNnumber;
+    private String phoneNumber;
 
     public User() {
     }
 
-    public User(String userName, String password, String id, String phoneNnumber) {
+    public User(String userName, String password, String id, String phoneNumber) {
         this.userName = userName;
         this.password = password;
         this.id = id;
-        this.phoneNnumber = phoneNnumber;
+        this.phoneNumber = phoneNumber;
     }
 
     public String getUserName() {
@@ -38,12 +38,12 @@ public class User {
         this.id = id;
     }
 
-    public String getPhoneNnumber() {
-        return phoneNnumber;
+    public String getPhoneNumber() {
+        return phoneNumber;
     }
 
-    public void setPhoneNnumber(String phoneNnumber) {
-        this.phoneNnumber = phoneNnumber;
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
 
     @Override
@@ -52,7 +52,7 @@ public class User {
                 "userName='" + userName + '\'' +
                 ", password='" + password + '\'' +
                 ", id='" + id + '\'' +
-                ", phoneNnumber='" + phoneNnumber + '\'' +
+                ", phoneNumber='" + phoneNumber + '\'' +
                 '}';
     }
 }
